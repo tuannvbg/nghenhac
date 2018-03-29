@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang ca sĩ Việt Nam</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="casi.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="casi.js">
+</head>
+<body>
+<div id="container">
+		<div class="header">
+			<div class="row">
+				<div class="col-md-3">
+					<div class="logo">
+						<img  src="image/zing.png" alt="logo">
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="search">
+						<form class="navbar-form navbar-left">
+					      <div class="input-group">
+					        <input type="text" class="form-control" placeholder="Search">
+					        <div class="input-group-btn">
+					          <button class="btn btn-default" type="submit">
+					            <i class="glyphicon glyphicon-search"></i>
+					          </button>
+					        </div>
+					      </div>
+    					</form>
+					</div>
+				</div>
+				<div class="col-md-3">
+					<button type="button" class="btn btn-default btn-lg" id="myBtn">Đăng nhập</button>
+
+  <!-- Modal -->
+  					<div class="modal fade" id="myModal" role="dialog">
+    					<div class="modal-dialog">
+    
+      <!-- Modal content-->
+      					<div class="modal-content">
+        				<div class="modal-header" style="padding:35px 50px;">
+          					<button type="button" class="close" data-dismiss="modal">&times;</button>
+          					<h4><span class="glyphicon glyphicon-lock"></span> Đăng nhập</h4>
+        				</div>
+        				<div class="modal-body" style="padding:40px 50px;">
+          					<form role="form">
+            			<div class="form-group">
+              				<label for="usrname"><span class="glyphicon glyphicon-user"></span> Tên đăng nhập:</label>
+              				<input type="text" class="form-control" id="usrname" placeholder="Nhập Email">
+            			</div>
+            			<div class="form-group">
+              				<label for="psw"><span class="glyphicon glyphicon-eye-open"></span> Mật khẩu:</label>
+              				<input type="text" class="form-control" id="psw" placeholder="Nhập mật khẩu">
+            			</div>
+            			<div class="checkbox">
+              			<label><input type="checkbox" value="" checked>Lưu tài khoản?</label>
+            			</div>
+             				<button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span> Đăng nhập</button>
+          					</form>
+        				</div>
+        				<div class="modal-footer">
+          					<button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span> Cancel</button>
+          					<p><a href="#">Đăng ký</a></p>
+          					<p><a href="#">Quên mật khẩu?</a></p>
+        				</div>
+      					</div>
+    					</div>
+  					</div> 
+				</div>	
+ 
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+			</div>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="trangchu.html">Trang chủ</a></li>
+				<li><a href="casipage.html">Ca sĩ</a></li>
+				<li><a href="#">Album</a></li>
+				<li><a href="musictype.html">Thể loại</a></li>
+				<li><a href="#">Playlist</a></li>
+				<li><a href="#">BXH</a></li>
+				<li><a href="http://kenh14.vn/">Bản tin</a></li>
+				<li><a href="#">Bản quyền</a></li>
+				<li><a href="#">Trang cá nhân</a></li>
+				<li><a href="#">Hỗ trợ</a></li>
+				<li><a href="#">Quảng cáo</a></li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="first">
+				<div class="title-section">
+					<h3 style="color: white">Việt Nam</h3>
+				</div>
+				<br>
+				<div class="artist">
+					<div class="gallery">
+					  <a target="_blank" href="singer.html">
+					    <img src="image\huongtram.png" alt="Ca sĩ Hương Tràm" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\toctien.png" alt="Ca sĩ Tóc Tiên" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\hoangson.png" alt="Ca sĩ Soobin Hoàng Sơn" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\21.png" alt="Ca sĩ Noo Phước Thịnh" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\hoa.png" alt="Ca sĩ Hoà Minzy" width="250px" height="150px">
+					  </a>
+					</div>
+					<br>
+					<br>
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\baoanh.png" alt="Ca sĩ Bảo Anh" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\dnhi.png" alt="Ca sĩ Đông Nhi" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\bichphuong.png" alt="Ca sĩ Bích Phương" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\hoangyen.png" alt="Ca sĩ Hoàng Yến Chibi" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\hongocha.png" alt="Ca sĩ Hồ Ngọc Hà" width="250px" height="150px">
+					  </a>
+					</div>
+
+
+				</div>
+			</div>
+			<div class="second">
+				<div class="title-section">
+					<h3>Âu Mĩ</h3>
+				</div>
+				<br>
+				<div class="artist">
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\22.png" alt="Ca sĩ Charlie Puth" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\23.png" alt="Ca sĩ Taylor Swift" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\imagene.png" alt="Ca sĩ Imagene Dragons" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\ariana.png" alt="Ca sĩ Ariana Grande" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\one.png" alt="Ca sĩ Hoà Minzy" width="250px" height="150px">
+					  </a>
+					</div>
+					<br>
+					<br>
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\maroon.png" alt="Ca sĩ Bảo Anh" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\shayne.png" alt="Ca sĩ Đông Nhi" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\bruno.png" alt="Ca sĩ Bích Phương" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\justinbieber.png" alt="Ca sĩ Hoàng Yến Chibi" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\selena.png" alt="Ca sĩ Hồ Ngọc Hà" width="250px" height="150px">
+					  </a>
+					</div>
+				</div>
+			</div>
+			<div class="third">
+				<div class="title-section">
+					<h3>Hàn Quốc</h3>
+				</div>
+				<br>
+				<div class="artist">
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\jfla.png" alt="Ca sĩ JFla" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\davichi.png" alt="Ca sĩ Davichi" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\exo.png" alt="Ca sĩ Exo" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\beast.png" alt="Ca sĩ Beast" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\red.png" alt="Ca sĩ Red Velvet" width="250px" height="150px">
+					  </a>
+					</div>
+					<br>
+					<br>
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\alie.png" alt="Ca sĩ Ailee" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\rtee.png" alt="Ca sĩ Rtee" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\iu.png" alt="Ca sĩ IU" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\hyorin.png" alt="Ca sĩ Hyorin" width="250px" height="150px">
+					  </a>
+					</div>
+
+					<div class="gallery">
+					  <a target="_blank" href="">
+					    <img src="image\yoona.png" alt="Ca sĩ Yoona" width="250px" height="150px">
+					  </a>
+					</div>
+				</div>
+			</div>
+			<br>
+			<div class="advs">
+				<button type="button" style="text-align: center" class="btn btn-info" data-toggle="collapse" data-target="#demo">Hãy khám phá!</button>
+				  <div id="demo" class="collapse">
+				    <h5 style="text-align: center">Hãy cùng nhau tận hưởng những giai điệu tươi trẻ, những giai điệu trầm lắng mang nhiều âm hưởng khác nhau đến từ nhiều ca sĩ trên toàn thế giới</h5><br>
+				    <img class="adv-img" src="image\adv.png">
+				  </div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="f-row">
+				<div class="col-md-3">
+					<img class="f-img" width="50px" height="50px" src="image/zing.png">
+				</div>
+				<div class="col-md-4">
+					<p class="contact">Địa chỉ: 99 Tô Hiến Thành, Sơn Trà, Đà Nẵng</p>
+					<p class="contact">Email: thanhduyenngo@gmail.com</p>
+					<p class="contact">Số điện thoại: 0903524510</p>
+				</div>
+				<div class="col-md-4">
+					<img class="icon" src="image\fb.png">
+					<img class="icon" src="image\gmail.png">
+					<img class="icon" src="image\skype.png">
+				</div>
+			</div>
+		</div>
+</div>
+</body>
+</html>

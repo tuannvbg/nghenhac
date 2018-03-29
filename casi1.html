@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trang ca sĩ 1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/trangchu.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 	<link rel="stylesheet" type="text/css" href="casi.js">
+</head>
+<body>
+<div id="container">
+	<div class ="top">
+		<img class="img-top" src="image\duyen.png">
+	</div>
+	<div class="menu">
+		<nav class="navbar navbar-inverse">
+  		<div class="container-fluid">
+    		<div class="navbar-header">
+      			<a class="navbar-brand" href="trangchu.html" data-toggle="tooltip" title="Trang chủ">Trang chủ</a>
+    		</div>
+    			<ul class="nav navbar-nav">
+      				<li class="active"><a href="casi.html" data-toggle="tooltip" title="Ca sĩ">Ca sĩ</a></li>
+      				<li><a href="theloai.html" data-toggle="tooltip" title="Playlist">Playlist</a></li>
+       				<li><a href="index-bxh.html" data-toggle="tooltip" title="Bảng xếp hạng">Bảng xếp hạng</a></li>
+        			<li><a href="http://kenh14.vn/" data-toggle="tooltip" title="Tin tức">Tin tức</a></li>
+         			<li><a href="#" data-toggle="tooltip" title="Quảng cáo">Quảng cáo</a></li>
+    			</ul>
+			    <form class="navbar-form navbar-left">
+			      <div class="form-group">
+			        <input type="text" class="form-control" placeholder="Search">
+			      </div>
+			      <button type="submit" class="btn btn-default">Tìm</button>
+			    </form>
+			    <ul class="nav navbar-nav navbar-right">
+			      <button type="button" class="btn btn-default btn-lg" id="myBtn">Đăng nhập</button>
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header" style="padding:35px 50px;">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><span class="glyphicon glyphicon-lock"></span>Đăng nhập</h4>
+        </div>
+        <div class="modal-body" style="padding:40px 50px;">
+          <form role="form">
+            <div class="form-group">
+              <label for="usrname"><span class="glyphicon glyphicon-user"></span>Tên đăng nhập</label>
+              <input type="text" class="form-control" id="usrname" placeholder="Nhập email">
+            </div>
+            <div class="form-group">
+              <label for="psw"><span class="glyphicon glyphicon-eye-open"></span>Mật khẩu</label>
+              <input type="text" class="form-control" id="psw" placeholder="Nhập mật khẩu">
+            </div>
+            <div class="checkbox">
+              <label><input type="checkbox" value="" checked>Lưu tài khoản</label>
+            </div>
+              <button type="submit" class="btn btn-success btn-block"><span class="glyphicon glyphicon-off"></span>Đăng nhập</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal"><span class="glyphicon glyphicon-remove"></span>Hủy</button>
+          <p><a href="#">Đăng ký</a></p>
+          <p><a href="#">Quên mật khẩu</a></p>
+        </div>
+      </div>
+    </div>
+  </div> 
+  		</div>
+		</nav>
+	</div>
+	<div class="content">
+		<div class="row">
+			<div class="col-md-3">
+				<ul class="list-group">
+				    <li class="list-group-item"><a href="index-song.html">Em gái mưa-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Anh, thế giới và em-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Ta còn thuộc về nhau-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Ngốc-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Vẫn luôn mong chờ-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Yêu một người vô tâm-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Nỗi đau của ký ức-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Sao anh vẫn chờ-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Người từng yêu anh rất sâu nặng-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Ai đằng sau lưng em-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Em sẽ mãi nhớ-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Cho em gần anh thêm chút nữa-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Ngốc 2-Hương Tràm</a></li>
+				    <li class="list-group-item"><a href="">Mùa đông tình yêu-Hương Tràm</a></li>
+  				</ul>
+			</div>
+			<div class="col-md-9">
+					<img class="cover" src="image\huongtramcv.png">
+				<div class="tieusu">
+					<p class="intro">Tên: Phạm Thị Hương Tràm<br>
+					Ngày sinh: <br>
+					Quốc gia: Việt Nam<br>
+					Hương Tràm là con nhà nòi. Cô có ba là NSƯT Tiến Dũng và anh trai là thí sinh Sao Mai điểm hẹn 2010 Phạm Tiến Mạnh. Hương Tràm đã gây cơn sốt trong buổi lên sóng đầu tiên ở vòng Giấu Mặt của "The Voice 2012" khi cô chọn ca khúc kinh điển I Will Always Love You của Whitney Houston và đã được cả 4 vị huấn luyện viên xoay ghế chọn vào đội của mình. Tuy nhiên, Hương Tràm quyết định chọn ca sỹ Thu Minh là vị huấn luyện viên cho giọng ca của mình. Bước vào vòng Đối Đầu, Hương Tràm cùng với Đức Quang đã so tài giọng hát với ca khúc kinh điển mang tên The Prayer. Có thể nói, đây là tiết mục hay nhất trong vòng thi đối đầu. Hương Tràm, Đức Quang hát tình cảm, hòa quyện và vô cùng thu hút. Màn trình diễn ngọt ngào của họ cho khán giả cảm giác đang thưởng thức một tiết mục “sang trọng” trong nhà hát chứ không phải phần thi Đối đầu giữa hai thí sinh trong một cuộc thi. Hương Tràm hát đẹp, tròn trịa và Đức Quang cũng đã thể hiện rất tốt. Hương Tràm được chọn không phải là điều bất ngờ vì cô là một trong những thí sinh nhiều fans nhất trong cuộc thi Giọng hát Việt năm nay. Tiếc cho Đức Quang, chàng ca sỹ có chất giọng trầm ấm và giàu bản lĩnh sân khấu phải chịu thiệt thòi... nhưng Hương Tràm vào vòng tiếp theo cũng là kết quả xứng đáng, nhất là khi HLV Thu Minh đã nói: "Đức Quang, em đủ tự tin để bước trên con đường của mình, em có kinh nghiệm... Chị xin lỗi, Hương Tràm cần chị." Đến với vòng liveshow, Hương Tràm chọn ca khúc nhạc Việt Nam và đó cũng lại là một ca khúc rất khó, đòi hỏi giọng ca có âm vực cao. Một bài hit của Hồ Quỳnh Hương, ca khúc Anh. Tuy nhiên, một lần nữa Hương Tràm đã không làm các khán giả yêu mến giọng hát của cô phải thất vọng. Đêm liveshow đầu tiên của Giọng Hát Việt, Hương Tràm được đánh giá là thí sinh xuất sắc nhất trong đêm. Ngày 13/01/2013, Hương Tràm chính thức trở thành quán quân đầu tiên của Giọng Hát Việt. Với ngôi vị quán quân, cô gái Nghệ An sẽ nhận được giải thưởng 500 triệu đồng tiền mặt, 200 triệu tiền sản phẩm của nhà tài trợ và một chuyến du lịch Hàn Quốc 7 ngày. Ngoài ra, cô còn được sở hữu một hợp đồng ghi âm khủng với hãng đĩa quốc tế. Với ngôi vị này, sẽ là bàn đạp rất tốt để cô gái đến từ xứ Nghệ bước vào làng nhạc Việt Nam với nhiều chông gai và đầy thách thức.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<div class="row">
+			<div class="col-md-4">
+				<img class="f-img" src="image\home.png">
+				<img class="f-img" src="image\gmail.png">
+				<img class="f-img" src="image\skype.png">
+				<img class="f-img" src="image\insta.png">
+				<img class="f-img" src="image\fb.png">
+				<img class="f-img" src="image\zing.png">
+				<img class="f-img" src="image\youtube.png">
+				<img class="f-img" src="image\gg.png">
+			</div>
+			<div class="col-md-8">
+				<p class="contact">Địa chỉ: 99 Tô Hiến Thành, Sơn Trà, Đà Nẵng<br>Số điện thoại: 0903524510 - 01264807657</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+<script>
+$(document).ready(function(){
+    $("#myBtn").click(function(){
+        $("#myModal").modal();
+    });
+});
+</script>
+</html>

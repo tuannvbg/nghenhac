@@ -1,0 +1,174 @@
+/*css cho trang chu
+*/body{
+	width: 1090px;
+	height: 700px;
+}
+
+#container{
+	width: 1350px;
+	height: 700px;
+	background-color: #fbfffb;
+	/*text-align: center;*/
+	
+}
+
+.top{
+	width: 1350px;
+	height: 150px;
+	background-color: rgba(180, 99, 4, 0.47);
+}
+
+.img-top{
+	width: 350px;
+	height: 150px;
+	margin-right: 800px;
+
+}
+
+.content{
+	width: 1350px;
+	height: 600px;
+	background-color: white;
+}
+.col-md-3{
+	height: 600px;
+	background-color: white;
+}
+
+.col-md-9{
+	height: 600px;
+	background-color: white;
+}
+
+.img-left{
+	width: 330px;
+	height: 100px;
+}
+
+.carousel-img{
+	height: 100px;
+}
+
+.carousel-inner{
+	height: 350px;
+}
+
+.hot-singer{
+	height: 150px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    margin-left: 10px;
+}
+
+div.gallery:hover {
+    border: 3px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.footer{
+	width: 1350px;
+	height: 100px;
+	background-color: rgba(180, 99, 4, 0.47);
+}
+
+.f-img{
+	width: 50px;
+	height: 50px;
+	margin-top: 25px;
+}
+
+.contact{
+	font-size: 14px;
+	font-weight: bold;
+	margin-top: 25px;
+	text-align: right;
+	margin-right: 30px;
+}
+
+/*css cho trang casi*/
+
+.one, .two, .three{
+	width: 1000px;
+	height: 200px;
+	background-color: white;
+}
+
+
+/*css cho trang casi1*/
+.cover{
+	width: 800px;
+	height: 200px;
+}
+
+.intro{
+	font-size: 14px;
+	text-align: left;
+}
+
+/*css cho trang playlist*/
+.music-type{
+	width: 300px;
+	height: 150px;
+	background-color: pink;
+	display: inline-block;
+	margin-left: 20px;
+	padding: 5px;
+	margin-top: 20px;
+}
+
+/*responsive*/
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .main {
+    width:80%;
+  }
+  .right {
+    width:100%;
+  }
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+========================================
+/*css cho trang song*/
+.left{
+	width: 500px;
+	height: 200px;
+	background-color: pink
+}
+
+.player-video-big {
+	max-width: 640px;
+	height: 130px auto;
+	background: black;
+	margin: 0px 0px 10px;
+}
+
+.img-songer{
+	width: 147px;
+	height: 130px;
+}
+
+.player-img{
+	width: 120px;
+	height: 130px;
+}
